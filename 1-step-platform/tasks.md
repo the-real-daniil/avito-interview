@@ -20,7 +20,7 @@ const logger = {
 logger.check(); // => ?
 
 const loggerCheck = logger.check;
-loggerCheck(logger); // => ?
+loggerCheck(); // => ?
 
 function execute(fn) {
   return fn();
